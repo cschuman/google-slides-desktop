@@ -1,15 +1,15 @@
 {
-  "name": "gmail-desktop",
-  "productName": "Gmail Desktop",
+  "name": "google-slides-desktop",
+  "productName": "Google Slides Desktop",
   "version": "0.1.0",
-  "description": "An unofficial Gmail Desktop App built with Electron",
+  "description": "An unofficial Google Slides App built with Electron",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf build/",
     "lint": "standard --verbose | snazzy",
     "test": "npm run lint",
     "start": "electron .",
-    "build:osx": "electron-packager . --out=build --overwrite --platform=darwin --arch=x64 --icon=assets/icons/icon.icns --app-version=$npm_package_version",
+    "build:osx": "electron-packager ./ --out=build --overwrite --platform=darwin --arch=x64 --icon=./assets/icons/icon.icns",
     "build": "npm run clean && npm run build:osx"
   },
   "repository": {
@@ -17,9 +17,8 @@
     "url": "git+https://github.com/timche/gmail-desktop.git"
   },
   "keywords": [
-    "gmail",
     "google",
-    "mail",
+    "slides",
     "desktop",
     "app",
     "client",
@@ -31,9 +30,9 @@
   "author": "timche",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/timche/gmail-desktop/issues"
+    "url": "https://github.com/cschuman/google-slides-desktop/issues"
   },
-  "homepage": "https://github.com/timche/gmail-desktop#readme",
+  "homepage": "https://github.com/cschuman/google-slides-desktop#readme",
   "devDependencies": {
     "babel-core": "^6.7.7",
     "babel-eslint": "^6.0.3",

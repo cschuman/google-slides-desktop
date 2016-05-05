@@ -1,4 +1,4 @@
-# <img src=".github/google-slides-icon.png" width="45"> Gmail Desktop
+# <img src=".github/google-slides-icon.png" width="45"> Google Slides Desktop
 
 > An unofficial Google Slides App built with [Electron](https://github.com/electron/electron)
 
@@ -35,8 +35,8 @@ Google Slides is built with [Electron](https://github.com/electron/electron).
   $ npm run build:osx
   ```
 
-- **Build all platforms:**
+  or
 
-  ```bash
-  $ npm run build
+  ```
+  $ electron-packager ./ --out=build --overwrite --platform=darwin --arch=x64 --icon=./assets/icons/icon.icns
   ```

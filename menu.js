@@ -1,4 +1,4 @@
-import { app, shell, Menu } from 'electron'
+import { app, Menu } from 'electron'
 
 const APP_NAME = app.getName()
 

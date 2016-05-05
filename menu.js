@@ -89,24 +89,6 @@ let darwinMenu = [
         role: 'close'
       }
     ]
-  },
-  {
-    label: 'Help',
-    role: 'help',
-    submenu: [
-      {
-        label: `${APP_NAME} Website`,
-        click () {
-          shell.openExternal('https://github.com/timche/gmail-desktop')
-        }
-      },
-      {
-        label: 'Report an issue',
-        click () {
-          shell.openExternal('https://github.com/timche/gmail-desktop/issues/new')
-        }
-      }
-    ]
   }
 ]
 

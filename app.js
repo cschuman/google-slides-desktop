@@ -56,7 +56,7 @@ app.on('ready', () => {
   })
 
   webContents.on('new-window', (e, url) => {
-    if (!/^.*(mail\.google\.com).*/.test(url)) {
+    if (!/^.*(slides\.google\.com).*/.test(url)) {
       e.preventDefault()
       shell.openExternal(url)
     }

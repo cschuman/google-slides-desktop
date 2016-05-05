@@ -32,7 +32,7 @@ function createWindow () {
     titleBarStyle: 'hidden-inset'
   })
 
-  mainWindow.loadURL('https://mail.google.com')
+  mainWindow.loadURL('https://slides.google.com')
 
   mainWindow.on('close', (e) => {
     if (!isQuitting) {
